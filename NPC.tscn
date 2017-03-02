@@ -1,0 +1,307 @@
+[gd_scene load_steps=34 format=1]
+
+[ext_resource path="res://game3/game3/openpixels-master/layers/body_olive.png" type="Texture" id=1]
+[ext_resource path="res://game3/game3/openpixels-master/layers/hair_white.png" type="Texture" id=2]
+[ext_resource path="res://game3/game3/openpixels-master/layers/misc_roundglasses.png" type="Texture" id=3]
+[ext_resource path="res://game3/game3/openpixels-master/layers/eyes_brown.png" type="Texture" id=4]
+[ext_resource path="res://game3/game3/openpixels-master/layers/cloths_greendress.png" type="Texture" id=5]
+[ext_resource path="res://game3/game3/openpixels-master/layers/body_black.png" type="Texture" id=6]
+[ext_resource path="res://game3/game3/openpixels-master/layers/cloths_jeans.png" type="Texture" id=7]
+[ext_resource path="res://game3/game3/openpixels-master/layers/cloths_redtshirt.png" type="Texture" id=8]
+[ext_resource path="res://game3/game3/openpixels-master/layers/hair_squared.png" type="Texture" id=9]
+[ext_resource path="res://game3/game3/openpixels-master/layers/eyes_green.png" type="Texture" id=10]
+[ext_resource path="res://game3/game3/openpixels-master/layers/misc_shoes.png" type="Texture" id=11]
+[ext_resource path="res://game3/game3/openpixels-master/layers/cloths_labcoat.png" type="Texture" id=12]
+[ext_resource path="res://game3/game3/openpixels-master/layers/hat_turban.png" type="Texture" id=13]
+[ext_resource path="res://game3/game3/openpixels-master/layers/eyes_blue.png" type="Texture" id=14]
+[ext_resource path="res://game3/game3/openpixels-master/layers/misc_mask_medic.png" type="Texture" id=15]
+[ext_resource path="res://game3/game3/openpixels-master/layers/body_caucassian.png" type="Texture" id=16]
+[ext_resource path="res://game3/game3/openpixels-master/layers/hair_mustache.png" type="Texture" id=17]
+[ext_resource path="res://game3/game3/openpixels-master/layers/hair_cuttedblack.png" type="Texture" id=18]
+[ext_resource path="res://game3/game3/openpixels-master/layers/eyes_default.png" type="Texture" id=19]
+[ext_resource path="res://game3/game3/openpixels-master/layers/misc_redboxgloves.png" type="Texture" id=20]
+[ext_resource path="res://game3/game3/openpixels-master/layers/cloths_yellowCBFtshirt.png" type="Texture" id=21]
+[ext_resource path="res://game3/game3/openpixels-master/layers/cloths_blueshorts.png" type="Texture" id=22]
+[ext_resource path="res://game3/game3/openpixels-master/layers/misc_backpack.png" type="Texture" id=23]
+[ext_resource path="res://game3/game3/openpixels-master/layers/hair_afro.png" type="Texture" id=24]
+[ext_resource path="res://game3/game3/openpixels-master/layers/cloths_blackdress.png" type="Texture" id=25]
+[ext_resource path="res://game3/game3/openpixels-master/layers/cloths_blacksuit.png" type="Texture" id=26]
+[ext_resource path="res://game3/game3/openpixels-master/layers/hair_longbrown.png" type="Texture" id=27]
+[ext_resource path="res://game3/game3/openpixels-master/layers/cloths_blousewithtie.png" type="Texture" id=28]
+[ext_resource path="res://game3/game3/openpixels-master/layers/hair_semibald.png" type="Texture" id=29]
+[ext_resource path="res://game3/game3/openpixels-master/layers/hair_fringebrown.png" type="Texture" id=30]
+[ext_resource path="res://game3/game3/openpixels-master/layers/body_green.png" type="Texture" id=31]
+[ext_resource path="res://game3/game3/openpixels-master/layers/eyes_red.png" type="Texture" id=32]
+[ext_resource path="res://game3/game3/openpixels-master/layers/cloths_tshirt.png" type="Texture" id=33]
+
+[node name="NPC" type="Node2D"]
+
+[node name="NPC!" type="Node2D" parent="."]
+
+editor/display_folded = true
+transform/pos = Vector2( 338.142, 9.13188 )
+
+[node name="Body" type="Sprite" parent="NPC!"]
+
+transform/pos = Vector2( -2, 85 )
+texture = ExtResource( 1 )
+
+[node name="white hair" type="Sprite" parent="NPC!"]
+
+transform/pos = Vector2( -2, 85 )
+texture = ExtResource( 2 )
+
+[node name="glasses" type="Sprite" parent="NPC!"]
+
+transform/pos = Vector2( -2, 85 )
+texture = ExtResource( 3 )
+
+[node name="eyes" type="Sprite" parent="NPC!"]
+
+transform/pos = Vector2( -2, 85 )
+texture = ExtResource( 4 )
+
+[node name="Sprite" type="Sprite" parent="NPC!"]
+
+transform/pos = Vector2( -2, 85 )
+texture = ExtResource( 5 )
+
+[node name="NPC2" type="Node2D" parent="."]
+
+editor/display_folded = true
+transform/pos = Vector2( 176.989, 94.8778 )
+
+[node name="body" type="Sprite" parent="NPC2"]
+
+texture = ExtResource( 6 )
+
+[node name="jeans" type="Sprite" parent="NPC2"]
+
+texture = ExtResource( 7 )
+
+[node name="shirt" type="Sprite" parent="NPC2"]
+
+texture = ExtResource( 8 )
+
+[node name="hair" type="Sprite" parent="NPC2"]
+
+texture = ExtResource( 9 )
+
+[node name="eyes" type="Sprite" parent="NPC2"]
+
+texture = ExtResource( 10 )
+
+[node name="shoes" type="Sprite" parent="NPC2"]
+
+texture = ExtResource( 11 )
+
+[node name="NPC3" type="Node2D" parent="."]
+
+editor/display_folded = true
+transform/pos = Vector2( 170, 290 )
+
+[node name="body" type="Sprite" parent="NPC3"]
+
+texture = ExtResource( 6 )
+
+[node name="labcoat" type="Sprite" parent="NPC3"]
+
+texture = ExtResource( 12 )
+
+[node name="turban" type="Sprite" parent="NPC3"]
+
+texture = ExtResource( 13 )
+
+[node name="eyes" type="Sprite" parent="NPC3"]
+
+texture = ExtResource( 14 )
+
+[node name="mask" type="Sprite" parent="NPC3"]
+
+texture = ExtResource( 15 )
+
+[node name="shoes" type="Sprite" parent="NPC3"]
+
+texture = ExtResource( 11 )
+
+[node name="NPC4" type="Node2D" parent="."]
+
+editor/display_folded = true
+transform/pos = Vector2( 334, 290 )
+
+[node name="body" type="Sprite" parent="NPC4"]
+
+texture = ExtResource( 16 )
+
+[node name="mustashe" type="Sprite" parent="NPC4"]
+
+texture = ExtResource( 17 )
+
+[node name="hair" type="Sprite" parent="NPC4"]
+
+texture = ExtResource( 18 )
+
+[node name="eyes" type="Sprite" parent="NPC4"]
+
+texture = ExtResource( 19 )
+
+[node name="eyes 2" type="Sprite" parent="NPC4"]
+
+texture = ExtResource( 10 )
+
+[node name="boxing" type="Sprite" parent="NPC4"]
+
+texture = ExtResource( 20 )
+
+[node name="shirt" type="Sprite" parent="NPC4"]
+
+texture = ExtResource( 21 )
+
+[node name="shorts" type="Sprite" parent="NPC4"]
+
+texture = ExtResource( 22 )
+
+[node name="shoes" type="Sprite" parent="NPC4"]
+
+texture = ExtResource( 11 )
+
+[node name="NPC5" type="Node2D" parent="."]
+
+editor/display_folded = true
+transform/pos = Vector2( 500, 100 )
+
+[node name="body" type="Sprite" parent="NPC5"]
+
+texture = ExtResource( 6 )
+
+[node name="backpack" type="Sprite" parent="NPC5"]
+
+texture = ExtResource( 23 )
+
+[node name="hair" type="Sprite" parent="NPC5"]
+
+texture = ExtResource( 24 )
+
+[node name="dress" type="Sprite" parent="NPC5"]
+
+texture = ExtResource( 25 )
+
+[node name="eyes" type="Sprite" parent="NPC5"]
+
+texture = ExtResource( 19 )
+
+[node name="eyes 2" type="Sprite" parent="NPC5"]
+
+texture = ExtResource( 10 )
+
+[node name="NPC6" type="Node2D" parent="."]
+
+editor/display_folded = true
+transform/pos = Vector2( 500, 300 )
+
+[node name="body" type="Sprite" parent="NPC6"]
+
+texture = ExtResource( 1 )
+
+[node name="suit" type="Sprite" parent="NPC6"]
+
+texture = ExtResource( 26 )
+
+[node name="hair" type="Sprite" parent="NPC6"]
+
+texture = ExtResource( 27 )
+
+[node name="eyes" type="Sprite" parent="NPC6"]
+
+texture = ExtResource( 19 )
+
+[node name="eyes 2" type="Sprite" parent="NPC6"]
+
+texture = ExtResource( 14 )
+
+[node name="NPC7" type="Node2D" parent="."]
+
+editor/display_folded = true
+transform/pos = Vector2( 170, 500 )
+
+[node name="body" type="Sprite" parent="NPC7"]
+
+texture = ExtResource( 6 )
+
+[node name="shirt" type="Sprite" parent="NPC7"]
+
+texture = ExtResource( 28 )
+
+[node name="pants" type="Sprite" parent="NPC7"]
+
+texture = ExtResource( 7 )
+
+[node name="eyes" type="Sprite" parent="NPC7"]
+
+texture = ExtResource( 19 )
+
+[node name="eyes 2" type="Sprite" parent="NPC7"]
+
+texture = ExtResource( 14 )
+
+[node name="hair" type="Sprite" parent="NPC7"]
+
+texture = ExtResource( 29 )
+
+[node name="NPC8" type="Node2D" parent="."]
+
+editor/display_folded = true
+transform/pos = Vector2( 340, 500 )
+
+[node name="body" type="Sprite" parent="NPC8"]
+
+texture = ExtResource( 6 )
+
+[node name="hair" type="Sprite" parent="NPC8"]
+
+visibility/light_mask = 0
+texture = ExtResource( 30 )
+modulate = Color( 0.878906, 0.203848, 0.0480652, 1 )
+
+[node name="eyes" type="Sprite" parent="NPC8"]
+
+texture = ExtResource( 19 )
+
+[node name="eyes 2" type="Sprite" parent="NPC8"]
+
+texture = ExtResource( 4 )
+
+[node name="shirt" type="Sprite" parent="NPC8"]
+
+texture = ExtResource( 8 )
+
+[node name="jeans" type="Sprite" parent="NPC8"]
+
+texture = ExtResource( 7 )
+
+[node name="shoes" type="Sprite" parent="NPC8"]
+
+texture = ExtResource( 11 )
+
+[node name="NPC9" type="Node2D" parent="."]
+
+editor/display_folded = true
+transform/pos = Vector2( 500, 500 )
+
+[node name="body" type="Sprite" parent="NPC9"]
+
+texture = ExtResource( 31 )
+
+[node name="eyes" type="Sprite" parent="NPC9"]
+
+texture = ExtResource( 32 )
+
+[node name="shirt" type="Sprite" parent="NPC9"]
+
+texture = ExtResource( 33 )
+
+[node name="pants" type="Sprite" parent="NPC9"]
+
+texture = ExtResource( 22 )
+
+
